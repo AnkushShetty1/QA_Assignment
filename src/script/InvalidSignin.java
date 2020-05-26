@@ -10,7 +10,7 @@ import page.LoginPage;
 
 public class InvalidSignin extends BaseTest{
 	
-	@Test(priority=2)
+	@Test()
 	public void testInValidSignin(){
 		for (int i = 1; i <= XL.getRowCount(XL_PATH, "InValidSignin"); i++) {
 			String userName = XL.getData(XL_PATH, "InValidSignin", i, 0);

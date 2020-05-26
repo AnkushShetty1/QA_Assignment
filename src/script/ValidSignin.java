@@ -12,6 +12,7 @@ public class ValidSignin extends BaseTest{
 	public void testValidSignin(){
 		String userName = XL.getData(XL_PATH, "ValidSignin", 1, 0);
 		String Password = XL.getData(XL_PATH, "ValidSignin", 1, 1);
+		System.out.println(Password);
 		LoginPage lp = new LoginPage(driver);
 		lp.setUserName(userName);
 		lp.setPassword(Password);

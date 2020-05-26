@@ -1,20 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="12" total="20" passed="7">
+<testng-results skipped="0" failed="1" ignored="10" total="18" passed="7">
   <reporter-output>
     <line>
       <![CDATA[Test testValidRegister is PASS]]>
-    </line>
-    <line>
-      <![CDATA[UN:ankushshetty12  PW:]]>
-    </line>
-    <line>
-      <![CDATA[UN:  PW:ashetty12]]>
-    </line>
-    <line>
-      <![CDATA[UN:abcd  PW:1234]]>
-    </line>
-    <line>
-      <![CDATA[Test testInValidSignin is PASS]]>
     </line>
     <line>
       <![CDATA[Test testValidSignin is PASS]]>
@@ -34,21 +22,37 @@
     <line>
       <![CDATA[Test testInvalidRegister is FAIL/SKIP]]>
     </line>
+    <line>
+      <![CDATA[UN:ankushshetty12  PW:]]>
+    </line>
+    <line>
+      <![CDATA[UN:  PW:ashetty12]]>
+    </line>
+    <line>
+      <![CDATA[UN:abcd  PW:1234]]>
+    </line>
+    <line>
+      <![CDATA[Test testInValidSignin is PASS]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="127615" started-at="2020-05-26T04:25:15Z" finished-at="2020-05-26T04:27:23Z">
+  <suite name="Suite" duration-ms="152539" started-at="2020-05-26T08:52:48Z" finished-at="2020-05-26T08:55:21Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="106737" started-at="2020-05-26T04:25:15Z" finished-at="2020-05-26T04:27:02Z">
+    <test name="Test1" duration-ms="99022" started-at="2020-05-26T08:52:48Z" finished-at="2020-05-26T08:54:27Z">
       <class name="script.ValidSignin">
-        <test-method status="PASS" signature="testValidSignin()[pri:3, instance:script.ValidSignin@68c4039c]" name="testValidSignin" duration-ms="4046" started-at="2020-05-26T04:26:03Z" finished-at="2020-05-26T04:26:07Z">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:script.ValidSignin@29774679]" name="openApp" is-config="true" duration-ms="10463" started-at="2020-05-26T08:52:48Z" finished-at="2020-05-26T08:52:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testValidSignin()[pri:3, instance:script.ValidSignin@29774679]" name="testValidSignin" duration-ms="3772" started-at="2020-05-26T08:53:35Z" finished-at="2020-05-26T08:53:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidSignin -->
-        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:script.ValidSignin@68c4039c]" name="screenshot" is-config="true" duration-ms="1" started-at="2020-05-26T04:26:07Z" finished-at="2020-05-26T04:26:07Z">
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:script.ValidSignin@29774679]" name="screenshot" is-config="true" duration-ms="0" started-at="2020-05-26T08:53:39Z" finished-at="2020-05-26T08:53:39Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidSignin status=SUCCESS method=ValidSignin.testValidSignin()[pri:3, instance:script.ValidSignin@68c4039c] output={null}]]]>
+                <![CDATA[[TestResult name=testValidSignin status=SUCCESS method=ValidSignin.testValidSignin()[pri:3, instance:script.ValidSignin@29774679] output={null}]]]>
               </value>
             </param>
           </params>
@@ -58,54 +62,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- screenshot -->
-      </class> <!-- script.ValidSignin -->
-      <class name="script.InvalidSignin">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:script.InvalidSignin@3ffc5af1]" name="openApp" is-config="true" duration-ms="21167" started-at="2020-05-26T04:25:15Z" finished-at="2020-05-26T04:25:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="testInValidSignin()[pri:2, instance:script.InvalidSignin@3ffc5af1]" name="testInValidSignin" duration-ms="9741" started-at="2020-05-26T04:25:54Z" finished-at="2020-05-26T04:26:03Z">
-          <reporter-output>
-            <line>
-              <![CDATA[UN:ankushshetty12  PW:]]>
-            </line>
-            <line>
-              <![CDATA[UN:  PW:ashetty12]]>
-            </line>
-            <line>
-              <![CDATA[UN:abcd  PW:1234]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testInValidSignin -->
-        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:script.InvalidSignin@3ffc5af1]" name="screenshot" is-config="true" duration-ms="1" started-at="2020-05-26T04:26:03Z" finished-at="2020-05-26T04:26:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testInValidSignin status=SUCCESS method=InvalidSignin.testInValidSignin()[pri:2, instance:script.InvalidSignin@3ffc5af1] output=UN:ankushshetty12  PW:]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Test testInValidSignin is PASS]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- screenshot -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.InvalidSignin@3ffc5af1]" name="closeApp" is-config="true" duration-ms="432" started-at="2020-05-26T04:27:02Z" finished-at="2020-05-26T04:27:02Z">
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.ValidSignin@29774679]" name="closeApp" is-config="true" duration-ms="148" started-at="2020-05-26T08:54:27Z" finished-at="2020-05-26T08:54:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-      </class> <!-- script.InvalidSignin -->
+      </class> <!-- script.ValidSignin -->
       <class name="script.ValidBookFlight">
-        <test-method status="PASS" signature="testValidBookFlight()[pri:6, instance:script.ValidBookFlight@ae45eb6]" name="testValidBookFlight" duration-ms="8025" started-at="2020-05-26T04:26:13Z" finished-at="2020-05-26T04:26:21Z">
+        <test-method status="PASS" signature="testValidBookFlight()[pri:6, instance:script.ValidBookFlight@3532ec19]" name="testValidBookFlight" duration-ms="6058" started-at="2020-05-26T08:53:43Z" finished-at="2020-05-26T08:53:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidBookFlight -->
-        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:script.ValidBookFlight@ae45eb6]" name="screenshot" is-config="true" duration-ms="1" started-at="2020-05-26T04:26:21Z" finished-at="2020-05-26T04:26:21Z">
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:script.ValidBookFlight@3532ec19]" name="screenshot" is-config="true" duration-ms="0" started-at="2020-05-26T08:53:49Z" finished-at="2020-05-26T08:53:49Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidBookFlight status=SUCCESS method=ValidBookFlight.testValidBookFlight()[pri:6, instance:script.ValidBookFlight@ae45eb6] output={null}]]]>
+                <![CDATA[[TestResult name=testValidBookFlight status=SUCCESS method=ValidBookFlight.testValidBookFlight()[pri:6, instance:script.ValidBookFlight@3532ec19] output={null}]]]>
               </value>
             </param>
           </params>
@@ -117,15 +88,15 @@
         </test-method> <!-- screenshot -->
       </class> <!-- script.ValidBookFlight -->
       <class name="script.ValidFindFlight">
-        <test-method status="PASS" signature="testValidFindFlight()[pri:4, instance:script.ValidFindFlight@3532ec19]" name="testValidFindFlight" duration-ms="3134" started-at="2020-05-26T04:26:07Z" finished-at="2020-05-26T04:26:11Z">
+        <test-method status="PASS" signature="testValidFindFlight()[pri:4, instance:script.ValidFindFlight@26653222]" name="testValidFindFlight" duration-ms="2607" started-at="2020-05-26T08:53:39Z" finished-at="2020-05-26T08:53:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidFindFlight -->
-        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:script.ValidFindFlight@3532ec19]" name="screenshot" is-config="true" duration-ms="1" started-at="2020-05-26T04:26:11Z" finished-at="2020-05-26T04:26:11Z">
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:script.ValidFindFlight@26653222]" name="screenshot" is-config="true" duration-ms="1" started-at="2020-05-26T08:53:42Z" finished-at="2020-05-26T08:53:42Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidFindFlight status=SUCCESS method=ValidFindFlight.testValidFindFlight()[pri:4, instance:script.ValidFindFlight@3532ec19] output={null}]]]>
+                <![CDATA[[TestResult name=testValidFindFlight status=SUCCESS method=ValidFindFlight.testValidFindFlight()[pri:4, instance:script.ValidFindFlight@26653222] output={null}]]]>
               </value>
             </param>
           </params>
@@ -137,15 +108,15 @@
         </test-method> <!-- screenshot -->
       </class> <!-- script.ValidFindFlight -->
       <class name="script.ValidSelectFlight">
-        <test-method status="PASS" signature="testValidSelectFlight()[pri:5, instance:script.ValidSelectFlight@5e5792a0]" name="testValidSelectFlight" duration-ms="2045" started-at="2020-05-26T04:26:11Z" finished-at="2020-05-26T04:26:13Z">
+        <test-method status="PASS" signature="testValidSelectFlight()[pri:5, instance:script.ValidSelectFlight@3ffc5af1]" name="testValidSelectFlight" duration-ms="1405" started-at="2020-05-26T08:53:42Z" finished-at="2020-05-26T08:53:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidSelectFlight -->
-        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:script.ValidSelectFlight@5e5792a0]" name="screenshot" is-config="true" duration-ms="1" started-at="2020-05-26T04:26:13Z" finished-at="2020-05-26T04:26:13Z">
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:script.ValidSelectFlight@3ffc5af1]" name="screenshot" is-config="true" duration-ms="0" started-at="2020-05-26T08:53:43Z" finished-at="2020-05-26T08:53:43Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidSelectFlight status=SUCCESS method=ValidSelectFlight.testValidSelectFlight()[pri:5, instance:script.ValidSelectFlight@5e5792a0] output={null}]]]>
+                <![CDATA[[TestResult name=testValidSelectFlight status=SUCCESS method=ValidSelectFlight.testValidSelectFlight()[pri:5, instance:script.ValidSelectFlight@3ffc5af1] output={null}]]]>
               </value>
             </param>
           </params>
@@ -157,15 +128,15 @@
         </test-method> <!-- screenshot -->
       </class> <!-- script.ValidSelectFlight -->
       <class name="script.ValidFlightConfirmation">
-        <test-method status="PASS" signature="testValidFlightConfirm()[pri:7, instance:script.ValidFlightConfirmation@59f99ea]" name="testValidFlightConfirm" duration-ms="41069" started-at="2020-05-26T04:26:21Z" finished-at="2020-05-26T04:27:02Z">
+        <test-method status="PASS" signature="testValidFlightConfirm()[pri:7, instance:script.ValidFlightConfirmation@68c4039c]" name="testValidFlightConfirm" duration-ms="38035" started-at="2020-05-26T08:53:49Z" finished-at="2020-05-26T08:54:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidFlightConfirm -->
-        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:script.ValidFlightConfirmation@59f99ea]" name="screenshot" is-config="true" duration-ms="1" started-at="2020-05-26T04:27:02Z" finished-at="2020-05-26T04:27:02Z">
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:script.ValidFlightConfirmation@68c4039c]" name="screenshot" is-config="true" duration-ms="0" started-at="2020-05-26T08:54:27Z" finished-at="2020-05-26T08:54:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidFlightConfirm status=SUCCESS method=ValidFlightConfirmation.testValidFlightConfirm()[pri:7, instance:script.ValidFlightConfirmation@59f99ea] output={null}]]]>
+                <![CDATA[[TestResult name=testValidFlightConfirm status=SUCCESS method=ValidFlightConfirmation.testValidFlightConfirm()[pri:7, instance:script.ValidFlightConfirmation@68c4039c] output={null}]]]>
               </value>
             </param>
           </params>
@@ -177,15 +148,15 @@
         </test-method> <!-- screenshot -->
       </class> <!-- script.ValidFlightConfirmation -->
       <class name="script.ValidRegister">
-        <test-method status="PASS" signature="testValidRegister()[pri:1, instance:script.ValidRegister@26653222]" name="testValidRegister" duration-ms="16897" started-at="2020-05-26T04:25:37Z" finished-at="2020-05-26T04:25:54Z">
+        <test-method status="PASS" signature="testValidRegister()[pri:1, instance:script.ValidRegister@5e5792a0]" name="testValidRegister" duration-ms="36437" started-at="2020-05-26T08:52:59Z" finished-at="2020-05-26T08:53:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testValidRegister -->
-        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:script.ValidRegister@26653222]" name="screenshot" is-config="true" duration-ms="22" started-at="2020-05-26T04:25:54Z" finished-at="2020-05-26T04:25:54Z">
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:script.ValidRegister@5e5792a0]" name="screenshot" is-config="true" duration-ms="65" started-at="2020-05-26T08:53:35Z" finished-at="2020-05-26T08:53:35Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidRegister status=SUCCESS method=ValidRegister.testValidRegister()[pri:1, instance:script.ValidRegister@26653222] output={null}]]]>
+                <![CDATA[[TestResult name=testValidRegister status=SUCCESS method=ValidRegister.testValidRegister()[pri:1, instance:script.ValidRegister@5e5792a0] output={null}]]]>
               </value>
             </param>
           </params>
@@ -197,13 +168,13 @@
         </test-method> <!-- screenshot -->
       </class> <!-- script.ValidRegister -->
     </test> <!-- Test1 -->
-    <test name="Test2" duration-ms="20387" started-at="2020-05-26T04:27:03Z" finished-at="2020-05-26T04:27:23Z">
+    <test name="Test2" duration-ms="35988" started-at="2020-05-26T08:54:28Z" finished-at="2020-05-26T08:55:04Z">
       <class name="script.InvalidRegister">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:script.InvalidRegister@239963d8]" name="openApp" is-config="true" duration-ms="14678" started-at="2020-05-26T04:27:03Z" finished-at="2020-05-26T04:27:17Z">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:script.InvalidRegister@464bee09]" name="openApp" is-config="true" duration-ms="8421" started-at="2020-05-26T08:54:28Z" finished-at="2020-05-26T08:54:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="FAIL" signature="testInvalidRegister()[pri:8, instance:script.InvalidRegister@239963d8]" name="testInvalidRegister" duration-ms="4099" started-at="2020-05-26T04:27:17Z" finished-at="2020-05-26T04:27:21Z">
+        <test-method status="FAIL" signature="testInvalidRegister()[pri:8, instance:script.InvalidRegister@464bee09]" name="testInvalidRegister" duration-ms="26894" started-at="2020-05-26T08:54:36Z" finished-at="2020-05-26T08:55:03Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [false] but found [true]]]>
@@ -248,11 +219,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testInvalidRegister -->
-        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:script.InvalidRegister@239963d8]" name="screenshot" is-config="true" duration-ms="1118" started-at="2020-05-26T04:27:21Z" finished-at="2020-05-26T04:27:23Z">
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:script.InvalidRegister@464bee09]" name="screenshot" is-config="true" duration-ms="513" started-at="2020-05-26T08:55:03Z" finished-at="2020-05-26T08:55:04Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testInvalidRegister status=FAILURE method=InvalidRegister.testInvalidRegister()[pri:8, instance:script.InvalidRegister@239963d8] output={null}]]]>
+                <![CDATA[[TestResult name=testInvalidRegister status=FAILURE method=InvalidRegister.testInvalidRegister()[pri:8, instance:script.InvalidRegister@464bee09] output={null}]]]>
               </value>
             </param>
           </params>
@@ -262,11 +233,50 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </line>
           </reporter-output>
         </test-method> <!-- screenshot -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.InvalidRegister@239963d8]" name="closeApp" is-config="true" duration-ms="420" started-at="2020-05-26T04:27:23Z" finished-at="2020-05-26T04:27:23Z">
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.InvalidRegister@464bee09]" name="closeApp" is-config="true" duration-ms="140" started-at="2020-05-26T08:55:04Z" finished-at="2020-05-26T08:55:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
       </class> <!-- script.InvalidRegister -->
     </test> <!-- Test2 -->
+    <test name="Test3" duration-ms="17137" started-at="2020-05-26T08:55:04Z" finished-at="2020-05-26T08:55:21Z">
+      <class name="script.InvalidSignin">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:script.InvalidSignin@14bf9759]" name="openApp" is-config="true" duration-ms="8974" started-at="2020-05-26T08:55:04Z" finished-at="2020-05-26T08:55:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testInValidSignin()[pri:0, instance:script.InvalidSignin@14bf9759]" name="testInValidSignin" duration-ms="8040" started-at="2020-05-26T08:55:13Z" finished-at="2020-05-26T08:55:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[UN:ankushshetty12  PW:]]>
+            </line>
+            <line>
+              <![CDATA[UN:  PW:ashetty12]]>
+            </line>
+            <line>
+              <![CDATA[UN:abcd  PW:1234]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInValidSignin -->
+        <test-method status="PASS" signature="screenshot(org.testng.ITestResult)[pri:0, instance:script.InvalidSignin@14bf9759]" name="screenshot" is-config="true" duration-ms="1" started-at="2020-05-26T08:55:21Z" finished-at="2020-05-26T08:55:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInValidSignin status=SUCCESS method=InvalidSignin.testInValidSignin()[pri:0, instance:script.InvalidSignin@14bf9759] output=UN:ankushshetty12  PW:]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Test testInValidSignin is PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshot -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:script.InvalidSignin@14bf9759]" name="closeApp" is-config="true" duration-ms="121" started-at="2020-05-26T08:55:21Z" finished-at="2020-05-26T08:55:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- script.InvalidSignin -->
+    </test> <!-- Test3 -->
   </suite> <!-- Suite -->
 </testng-results>

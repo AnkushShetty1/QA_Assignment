@@ -8,7 +8,7 @@ import page.LoginPage;
 import page.RegisterPage;
 
 public class InvalidRegister extends BaseTest{
-	@Test(priority=8)
+	@Test()
 	public void testInvalidRegister() {
 		LoginPage lp=new LoginPage(driver);
 		lp.clickRegister();

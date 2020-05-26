@@ -3,11 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test1">
     <classes>
-      <class name="script.InvalidSignin"/>
+      <class name="script.ValidSignin"/>
       <class name="script.ValidSelectFlight"/>
       <class name="script.ValidRegister"/>
       <class name="script.ValidFindFlight"/>
-      <class name="script.ValidSignin"/>
       <class name="script.ValidBookFlight"/>
       <class name="script.ValidFlightConfirmation"/>
     </classes>
@@ -15,6 +14,11 @@
   <test thread-count="5" name="Test2">
     <classes>
       <class name="script.InvalidRegister"/>
-    </classes>
+    </classes>		
+  </test> 
+  <test thread-count="5" name="Test3">
+    <classes>
+      <class name="script.InvalidSignin"/>
+    </classes>		
   </test> 
 </suite> 
