@@ -3,10 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test1">
     <classes>
-      <class name="script.ValidSignin"/>
-      <class name="script.ValidSelectFlight"/>
       <class name="script.ValidRegister"/>
+      <class name="script.ValidSignin"/>
       <class name="script.ValidFindFlight"/>
+      <class name="script.ValidSelectFlight"/>
       <class name="script.ValidBookFlight"/>
       <class name="script.ValidFlightConfirmation"/>
     </classes>
