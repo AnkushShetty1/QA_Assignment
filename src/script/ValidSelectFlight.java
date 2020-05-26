@@ -9,7 +9,7 @@ public class ValidSelectFlight extends BaseTest{
 	@Test(priority=5)
 	public void testValidSelectFlight() {
 		SelectFlightPage sfp = new SelectFlightPage(driver);
-		sfp.setRadioButton(3);
+		sfp.setRadioButton(2);
 		sfp.clickContinue();
 	}
 
